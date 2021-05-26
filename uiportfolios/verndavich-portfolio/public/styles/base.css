@@ -1,0 +1,39 @@
+/* view more link arrow animation */
+#view .arrow-right{
+    position: absolute;
+    margin-left: 3rem;
+    opacity: 0;
+    transition: .5s ease-out;
+    margin-top: .05rem;
+}
+/* animation */
+#view:hover .arrow-right{
+    opacity: 1;
+    margin-left: 6.5rem;
+}
+/* scrollbar customization */
+#scroll::-webkit-scrollbar{
+    width: 5px;
+}
+#scroll::-webkit-scrollbar-track{
+    background: transparent;
+
+}
+#scroll::-webkit-scrollbar-thumb{
+    background: #F3F4F6;
+
+    background: #E5E7EB;
+
+    border-radius: 40px;
+    cursor: pointer;
+}
+.dark #scroll::-webkit-scrollbar-thumb{
+
+    background: #4B5563;
+
+    background: #374151;
+
+    border-radius: 40px;
+    cursor: pointer;
+}
+

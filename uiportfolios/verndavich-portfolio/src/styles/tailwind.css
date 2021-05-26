@@ -1,0 +1,11 @@
+@tailwind base;
+#article-link a:hover p{
+    @apply text-blue-600 ;
+}
+.dark #article-link a:hover p{
+    @apply text-red-300;
+}
+
+@tailwind components;
+
+@tailwind utilities;

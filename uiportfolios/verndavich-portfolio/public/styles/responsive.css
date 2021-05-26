@@ -1,0 +1,116 @@
+/* responsive */
+@media screen and (max-width: 480px){
+    header{
+        margin-top: 2rem;
+        padding: 0 1rem 0 1rem;
+    }
+    header #toggle{
+        margin-top: -2rem;
+    }
+    header #about-heading{
+        margin-top: 2rem;
+    }
+    header #social-links{
+        margin-top: 1rem;
+    }
+    main{
+        margin-top: 2rem;
+        padding: 0 1rem 0 1rem;
+    }
+   
+    main .article-items  ul li a p{
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    main .article-items  ul li a span{
+       position: relative;
+       min-width: 40%;
+    }
+    main .article-items #view{
+        margin-top: 1rem;
+    }
+    footer{
+        margin-top: 2rem;
+        padding: 0 1rem 0 1rem;
+    }
+    footer #social-links a{
+padding-right: 2rem;
+
+    }
+    footer #social-links:nth-child(2){
+        margin-top: 1rem;
+    }
+ /* portfolio writing page */
+ #port-head {
+    padding: 0;
+    margin-left: -.8rem;
+ }
+ #port-head a{
+     margin-left: -6.1rem;
+ }
+   #main-title p{
+       width: 5rem;
+   }
+   #article-list-page ul{
+       margin-top: 2rem;
+   }
+   /* article */
+   #article-heading{
+       margin-top: 2rem;
+       
+   }
+   #article-heading p{
+       font-size: 20px;
+   }
+   #post{
+       margin-top: 2rem;
+   }
+   #post-intro{
+       margin-top: 1rem;
+   }
+   #post-intro p{
+       font-size: 16px;
+   }
+   #post-info p{
+    font-size: 16px;
+   }
+   iframe{
+       margin-top: 2rem;
+       width: 100%;
+   }
+   /* call to action section */
+  #quiz{
+      display: in;
+  }
+  #cta-info{
+      width: 100%;
+      padding: 2rem;
+  }
+  #cta-info #sub-form button{
+      margin-top: 1rem;
+  }
+  /* related articles */
+  #related-articles ul li a p{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+#related-articles ul li a span{
+    position: relative;
+    min-width: 40%;
+    font-size: 12px;
+ }
+ /* audio items */
+ #audio-items ul li a p{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+ }
+ #audio-tiems ul li a span{
+    position: relative;
+    min-width: 40%;
+    
+ }
+}
+
