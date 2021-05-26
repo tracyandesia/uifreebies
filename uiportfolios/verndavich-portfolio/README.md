@@ -31,3 +31,7 @@ engaging with the process of both UI/UX design and familiarize yourself with the
 <h3>Attributed to:</h3>
 #lapaninja
 #curious-gurbir
+
+
+<p>Visit wesbsite</p>
+<a href="https://danielverndavich.uitracers.com/" target="_blank">Daniel Verndavich</a>
